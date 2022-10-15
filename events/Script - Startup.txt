@@ -15,6 +15,7 @@ country_event = {
 
     immediate = {
         set_global_flag = completed_startup
+        hre_inheritable = yes
     }
 
     option = {
