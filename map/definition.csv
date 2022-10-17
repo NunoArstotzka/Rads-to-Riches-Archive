@@ -1967,7 +1967,7 @@ province;red;green;blue;x;x
 1966;50;165;0;Isla Angel
 1967;50;175;0;Isla Tiburon
 1968;50;185;0;Isle of San Nicolas # New
-1969;50;195;0;x
+1969;38;21;19;Canadian Wasteland
 1970;0;105;5;x
 1971;0;115;5;x
 1972;0;125;5;x
@@ -1998,3 +1998,4 @@ province;red;green;blue;x;x
 1997;20;175;5;x
 1998;20;185;5;x
 1999;20;195;5;x
+2000;38;21;19;
