@@ -545,7 +545,7 @@ base_values = {
 	governing_capacity = 250
 	num_accepted_cultures = 2
 	monthly_splendor = 1
-	artillery_bonus_vs_fort = 5
+	artillery_levels_available_vs_fort = 5
 	cav_to_inf_ratio = 0.5
 	merc_maintenance_modifier = 0.5
 	global_tax_income = 12
@@ -598,7 +598,6 @@ negative_stability = {
 	monthly_fervor_increase = 1
 	yearly_corruption = 0.035
 	interest = -2.5
-	migration_cooldown = 0.25
 	global_institution_spread = 0.15
 	yearly_harmony = 0.25
 	

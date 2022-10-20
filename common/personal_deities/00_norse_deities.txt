@@ -8,7 +8,7 @@ odin =
 	core_creation = -0.10
 	
 	allow = { religion = norse_pagan_reformed }
-	sprite = 1
+	sprite = 7
 	
 	ai_will_do = {
 		factor = 1
@@ -29,7 +29,7 @@ freya =
 	global_tax_modifier = 0.1
 	
 	allow = { religion = norse_pagan_reformed }
-	sprite = 1
+	sprite = 8
 	
 	ai_will_do = {
 		factor = 1
@@ -50,7 +50,7 @@ tor =
 	defensiveness = 0.1
 	
 	allow = { religion = norse_pagan_reformed }
-	sprite = 1
+	sprite = 9
 	
 	ai_will_do = {
 		factor = 1
@@ -83,7 +83,7 @@ tyr =
 	discipline = 0.05
 	
 	allow = { religion = norse_pagan_reformed }
-	sprite = 1
+	sprite = 10
 	
 	ai_will_do = {
 		factor = 1
@@ -104,7 +104,7 @@ njord =
 	global_trade_goods_size_modifier = 0.1
 	
 	allow = { religion = norse_pagan_reformed }
-	sprite = 1
+	sprite = 11
 	
 	ai_will_do = {
 		factor = 1
@@ -130,7 +130,7 @@ snotra =
 	build_cost = -0.1
 	
 	allow = { religion = norse_pagan_reformed }
-	sprite = 1
+	sprite = 12
 	
 	ai_will_do = {
 		factor = 1

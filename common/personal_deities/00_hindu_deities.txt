@@ -1,6 +1,33 @@
 # Do not change tags in here without changing every other reference to them.
 # If adding new dieties, make sure they are uniquely named.
 
+buddha = {
+	sprite = 6
+	allow = { 
+		religion = hinduism
+		OR = {
+			mission_completed = mnd_maj_candi_shrines
+			mission_completed = sun_candi_temples
+			mission_completed = mnd_khm_religion
+		}
+	}
+	tolerance_heathen = 2
+	advisor_cost = -0.1
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 3
+			any_owned_province = {
+				OR = {
+					religion = buddhism
+					religion = mahayana
+					religion = vajrayana
+				}
+			}
+		}
+	}
+}
+
 shiva =
 {
 	# (Diplomatic - War)
@@ -30,7 +57,7 @@ ganesha =
 	improve_relation_modifier = 0.20
 	
 	allow = { religion = hinduism }
-	sprite = 1
+	sprite = 2
 	
 	ai_will_do = {
 		factor = 1
@@ -52,7 +79,7 @@ surya =
 	trade_efficiency = 0.10
 	
 	allow = { religion = hinduism }
-	sprite = 1
+	sprite = 3
 	
 	ai_will_do = {
 		factor = 1
@@ -70,11 +97,11 @@ surya =
 ganga = 
 {
 	#(Economic - Savings)
-	interest = -1
+	interest = -0.25
 	build_cost = -0.10
 	
 	allow = { religion = hinduism }
-	sprite = 1
+	sprite = 4
 	
 	ai_will_do = {
 		factor = 1
@@ -96,7 +123,7 @@ shakti =
 	discipline = 0.05
 	
 	allow = { religion = hinduism }
-	sprite = 1
+	sprite = 5
 	
 	ai_will_do = {
 		factor = 1
@@ -118,7 +145,7 @@ vishnu =
 	global_missionary_strength = 0.02
 	
 	allow = { religion = hinduism }
-	sprite = 1
+	sprite = 6
 	
 	ai_will_do = {
 		factor = 1
@@ -132,4 +159,3 @@ vishnu =
 		}		
 	}	
 }
-

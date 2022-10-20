@@ -1,11 +1,6 @@
-#------------------------------------------
-# Monarchy
-#------------------------------------------
 monarchy = {
-    color = { 232 203 16 }
-    
-    basic_reform = monarchy_mechanic
-    
+	basic_reform = monarchy_mechanic
+	color = { 179 25 25 }
     reform_levels = {
         monarchy_power_structure = {
 			reforms = {
@@ -148,7 +143,7 @@ monarchy = {
             }
         }
     }
-    
+
     legacy_government = {
         autocracy_legacy
         legion_legacy
@@ -159,14 +154,10 @@ monarchy = {
         ncr_state_legacy
     }
 }
-#------------------------------------------
-# Republic
-#------------------------------------------
+
 republic = {
+	basic_reform = republic_mechanic
     color = { 180 125 25 }
-    
-    basic_reform = republic_mechanic
-    
     reform_levels = {
         republic_power_structure = {
 			reforms = {
@@ -318,14 +309,9 @@ republic = {
     }
 }
 
-#------------------------------------------
-# Theocracy
-#------------------------------------------
 theocracy = {
-    color = { 210 210 210 }
-    
-    basic_reform = theocracy_mechanic
-    
+	basic_reform = theocracy_mechanic
+    color = { 75 170 75 }
     reform_levels = {
         theocracy_power_structure = {
 			reforms = {
@@ -439,14 +425,9 @@ theocracy = {
     }
 }
 
-#------------------------------------------
-# Tribal
-#------------------------------------------
 tribal = {
-    color = { 155 43 37 }
-    
-    basic_reform = tribe_mechanic
-    
+	basic_reform = tribe_mechanic
+    color = { 220 165 95 }
     reform_levels = {
         tribe_power_structure = {
 			reforms = {
@@ -584,11 +565,10 @@ tribal = {
 }
 
 native = {
-	basic_reform = native_mechanic
-
+	basic_reform = native_basic_reform
+	color = { 194 127 209 }
 	legacy_government = {
 		native_council_legacy
 	}
-	color = { 194 127 209 }
 }
 

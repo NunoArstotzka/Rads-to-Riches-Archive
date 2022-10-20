@@ -8,7 +8,7 @@ great_war_aftermath = {
     religious_conflicts = yes
     papacy = 1.0
     
-    objectives = { } 
+    objectives = { }
     
     abilities = {
         ab_army_tradition = {
@@ -73,7 +73,7 @@ great_war_aftermath = {
             ai_will_do = { factor = 1 }
         }
         ab_coring_distance = {
-            rule = {
+            modifier = {
                 ignore_coring_distance = yes
             }
             ai_will_do = { factor = 1 }
@@ -86,10 +86,10 @@ chinese_incursion = {
     can_start = {
         custom_trigger_tooltip = {
             tooltip = TOOLTIP_CHINESE_INCURSION
+            current_age = great_war_aftermath
             any_country = {
                 ai = no
                 grown_by_development = 500
-                current_age = great_war_aftermath
             }
         }
     }
@@ -98,10 +98,15 @@ chinese_incursion = {
     papacy = 1.0
     absolutism = {
         harsh_treatment = 1
+        stability = 1
         decrease_autonomy_command = 1
+        strengthen_government = 2
+
         increase_autonomy_command = -2
+        debase_currency = -1
         execute_rebel_acceptance_command = -10
         seat_in_parliament = -3
+        war_exhaustion = -1
     }
 
     objectives = { } 
@@ -169,7 +174,7 @@ chinese_incursion = {
             ai_will_do = { factor = 1 }
         }
         ab_coring_distance = {
-            rule = {
+            modifier = {
                 ignore_coring_distance = yes
             }
             ai_will_do = { factor = 1 }
@@ -195,13 +200,18 @@ zetan_assault = {
     papacy = 1.0
     absolutism = {
         harsh_treatment = 1
+        stability = 1
         decrease_autonomy_command = 1
+        strengthen_government = 2
+
         increase_autonomy_command = -2
+        debase_currency = -1
         execute_rebel_acceptance_command = -10
         seat_in_parliament = -3
+        war_exhaustion = -1
     }
 
-    objectives = { } 
+    objectives = { }
     
     abilities = {
         ab_army_tradition = {
@@ -266,7 +276,7 @@ zetan_assault = {
             ai_will_do = { factor = 1 }
         }
         ab_coring_distance = {
-            rule = {
+            modifier = {
                 ignore_coring_distance = yes
             }
             ai_will_do = { factor = 1 }
