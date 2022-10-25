@@ -5,16 +5,13 @@ nuke = {
 	category = covert
 	alert_index = 40
 	alert_tooltip = nuke_alert_tooltip
-	
 	require_acceptance = no
-	
 	is_visible = {
         check_variable = {
             which = nuke_stockpile
             value = 1
         }
 	}
-    
 	is_allowed = {
         check_variable = {
             which = nuke_stockpile
@@ -27,20 +24,6 @@ nuke = {
             value = 1
         }
         FROM = { country_event = { id = nukes.1 } }
-	}
-	on_decline = {
-        subtract_variable = {
-            which = nuke_stockpile
-            value = 1
-        }
-        FROM = { country_event = { id = nukes.1 } }
-	}
-	
-	ai_acceptance = {
-        add_entry = {
-			name = BASE
-			set_variable = { which = ai_value value = 1000 }
-		}
 	}
 	ai_will_do = {
         always = yes
@@ -98,26 +81,6 @@ establish_cult = {
             }
         }
 	}
-	on_decline =
-	{
-        add_spy_network_in = { who = FROM value = -100 }
-        FROM = {
-            random_owned_province = {
-                change_religion = ROOT
-            }
-            add_country_modifier = { 
-                name = target_of_espionage
-                duration = 1800
-            }
-        }
-	}
-	
-	ai_acceptance = {
-        add_entry = {
-			name = BASE
-			set_variable = { which = ai_value value = 1000 }
-		}
-	}
 	ai_will_do = {
 		always = yes
 	}
@@ -172,26 +135,6 @@ spread_propaganda_action = {
                 duration = 1800
             }
         }
-	}
-	on_decline =
-	{
-        add_spy_network_in = { who = FROM value = -50 }
-        FROM = {
-            random_owned_province = {
-                change_culture = ROOT
-            }
-            add_country_modifier = { 
-                name = target_of_espionage
-                duration = 1800
-            }
-        }
-	}
-	
-	ai_acceptance = {
-        add_entry = {
-			name = BASE
-			set_variable = { which = ai_value value = 1000 }
-		}
 	}
 	ai_will_do = {
 		FROM = {
@@ -249,28 +192,6 @@ assassinate_leader = {
                 duration = 3650
             }
         }
-	}
-	on_decline =
-	{
-        add_spy_network_in = { who = FROM value = -100 }
-        
-        set_country_flag = sent_assassin
-        
-        FROM = { 
-            set_country_flag = being_assassinated
-            
-            add_country_modifier = { 
-                name = target_of_espionage
-                duration = 3650
-            }
-        }
-	}
-	
-	ai_acceptance = {
-        add_entry = {
-			name = BASE
-			set_variable = { which = ai_value value = 1000 }
-		}
 	}
 	ai_will_do = {
 		always = yes
@@ -334,44 +255,7 @@ conduct_slave_raid = {
             }
         }
 	}
-	on_decline =
-	{
-        add_spy_network_in = { who = FROM value = -50 }
-        
-        # Prevent overlay if different countries use the action at the same time.
-        every_country = {
-            clr_country_flag = sent_slave_raid
-            clr_country_flag = got_slave_raid
-        }
-        
-        # Allow the event to be triggered
-        set_country_flag = sent_slave_raid
-        FROM = { set_country_flag = got_slave_raid }
-        
-        FROM = {
-            add_country_modifier = { 
-                name = target_of_slave_raid
-                duration = 3650
-            }
-        }
-	}
-	
-	ai_acceptance = {
-        add_entry = {
-			name = BASE
-			set_variable = { which = ai_value value = 1000 }
-		}
-	}
 	ai_will_do = {
 		always = yes
 	}
 }
-
-
-
-
-
-
-
-
-

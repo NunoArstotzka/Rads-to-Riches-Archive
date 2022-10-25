@@ -113,3 +113,7 @@ power_armour = {
 gecko_pelt = {
 	base_price = 3
 }
+
+unknown = {
+	base_price = 0
+}

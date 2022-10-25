@@ -21,11 +21,11 @@ erase_advisor_flags_effect = { #Goes into the after = {} effect after check_if_n
 }
 
 internal_advisor_generation_effect = { #Only used within generate_advisor_of_type_and_semi_random_religion_effect
-#Requires check_if_non_state_advisor_effect in immediate as that gives the arguments to generate_advisor_of_type_and_semi_random_religion_effect that then passes it on to this.
-#$advisor_type$ = Advisor type if state religion.
-#$advisor_type_if_not_state$ = Advisor type if non-state religion.
-#$skill$ = Skill Level
-#$discount$ = yes/no for discount
+	#Requires check_if_non_state_advisor_effect in immediate as that gives the arguments to generate_advisor_of_type_and_semi_random_religion_effect that then passes it on to this.
+	#$advisor_type$ = Advisor type if state religion.
+	#$advisor_type_if_not_state$ = Advisor type if non-state religion.
+	#$skill$ = Skill Level
+	#$discount$ = yes/no for discount
 	trigger_switch = {
 		on_trigger = has_country_flag #Flags set by check_if_non_state_advisor_effect
 		state_religion_advisor = {
@@ -39,13 +39,13 @@ internal_advisor_generation_effect = { #Only used within generate_advisor_of_typ
 }
 
 generate_advisor_of_type_and_semi_random_religion_effect = {
-#Actual work is done by internal_advisor_generation_effect above but it goes through this first.
-#Requires check_if_non_state_advisor_effect in immediate.
-#$advisor_type$ = Advisor type if state religion.
-#$advisor_type_if_not_state$ = Advisor type if non-state religion.
-#$scaled_skill$ = yes/no
-#$skill$ = Skill Level
-#$discount$ = yes/no for discount
+	#Actual work is done by internal_advisor_generation_effect above but it goes through this first.
+	#Requires check_if_non_state_advisor_effect in immediate.
+	#$advisor_type$ = Advisor type if state religion.
+	#$advisor_type_if_not_state$ = Advisor type if non-state religion.
+	#$scaled_skill$ = yes/no
+	#$skill$ = Skill Level
+	#$discount$ = yes/no for discount
 	set_country_flag = $scaled_skill$_scaled_skill_flag #Must be cleared in this effect, or we won't find it again.
 	
 	if = { #If scaled skill is yes we continue after checking what level is apropriate

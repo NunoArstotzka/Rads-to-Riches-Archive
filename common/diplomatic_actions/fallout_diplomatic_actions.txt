@@ -1,0 +1,58 @@
+royal_marriage = {
+	condition = {
+
+		tooltip = MARWAR
+		potential = {
+			NOT = { # Races that cannot normally reproduce
+				is_robot_administration = yes  # Robots can't breed
+				is_synth_administration = yes # Robots can't breed
+				is_fungal_administration = yes # Fungi reproduce asexually
+				is_deathclaw_administration = yes # Deathclaws can't breed with sentients
+				is_super_mutant_administration = yes # Super Mutants can't breed, just ask the Master
+				cannot_breed = yes
+			}
+		}
+		allow = {
+			NOT = { war_with = FROM }
+			NOT = { cannot_breed = yes }
+			OR = {
+				AND = {
+					is_alien_administration = yes # Aliens can't breed with men
+					FROM = { is_alien_administration = yes } # Aliens can breed with other aliens
+				}
+				AND = {
+					OR = {
+						is_rodent_administration = yes
+						is_swampfolk_administration = yes
+						is_beastlord_administration = yes
+						is_ghoul_administration = yes
+					}
+					FROM = {
+						OR = {
+							is_rodent_administration = yes
+							is_swampfolk_administration = yes
+							is_beastlord_administration = yes
+							is_ghoul_administration = yes
+						}
+					}
+				}
+				AND = {
+					is_human_administration = yes
+					FROM = { is_human_administration = yes }
+				}
+			}
+		}
+	}
+}
+
+# Block usage
+grant_freecity = {
+    condition = {
+		potential = {
+            always = yes
+		}
+		allow = {
+			always = no
+		}
+	}
+}

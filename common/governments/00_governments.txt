@@ -565,7 +565,7 @@ tribal = {
 }
 
 native = {
-	basic_reform = native_basic_reform
+	basic_reform = native_mechanic
 	color = { 194 127 209 }
 	legacy_government = {
 		native_council_legacy
