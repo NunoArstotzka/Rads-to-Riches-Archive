@@ -1,5 +1,5 @@
 version="1.0"
-name="Fallout"
+name="Rads to riches"
 replace_path="common/advisortypes"
 replace_path="common/bookmarks"
 replace_path="common/church_aspects"
