@@ -4,10 +4,10 @@ province;red;green;blue;x;x
 3;128;38;192;Junktown
 4;50;40;145;Ellicott City
 5;128;42;0;Annapolis
-6;58;33;30;West Wasteland
-7;0;44;64;North Wasteland
-8;54;26;14;South Wasteland
-9;57;81;14;East Wasteland
+6;58;33;30;Placeholder Wasteland 1
+7;17;10;9;Canadian Wasteland
+8;54;26;14;Mexican Wasteland
+9;57;81;14;Appalachian Wasteland
 10;73;190;14;Chillicothe
 11;109;201;201;Lake Winnipeg
 12;25;203;203;Everglades
@@ -1967,8 +1967,8 @@ province;red;green;blue;x;x
 1966;50;165;0;Isla Angel
 1967;50;175;0;Isla Tiburon
 1968;50;185;0;Isle of San Nicolas # New
-1969;38;21;19;Canadian Wasteland
-1970;0;105;5;x
+1969;38;21;19;Placeholder Wasteland 2
+1970;0;110;5;x
 1971;0;115;5;x
 1972;0;125;5;x
 1973;0;135;5;x
@@ -1998,4 +1998,3 @@ province;red;green;blue;x;x
 1997;20;175;5;x
 1998;20;185;5;x
 1999;20;195;5;x
-2000;38;21;19;
