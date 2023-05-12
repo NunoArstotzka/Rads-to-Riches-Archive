@@ -1,5 +1,5 @@
 version="1.0"
-name="Fallout"
+name="RadsToRiches"
 replace_path="common/advisortypes"
 replace_path="common/ages"
 replace_path="common/ai_army"
@@ -123,5 +123,3 @@ tags={
 	"Utilities"
 }
 supported_version="1.34.*"
-path="C:/Users/Xylozi/Documents/Paradox Interactive/Europa Universalis IV/mod/fallout"
-remote_file_id="2068586727"
