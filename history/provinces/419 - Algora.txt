@@ -1,7 +1,7 @@
 
-owner = CRS
-controller = CRS
-add_core = CRS
+#owner = CRS
+#controller = CRS
+#add_core = CRS
 is_city = yes
 
 base_tax = 1

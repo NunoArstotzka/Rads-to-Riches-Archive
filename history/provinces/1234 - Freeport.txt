@@ -2,9 +2,9 @@
 
 #2990 - Cook
 
-owner = BRW
-controller = BRW
-add_core = BRW
+#owner = BRW
+#controller = BRW
+#add_core = BRW
 
 is_city = yes
 base_tax = 2

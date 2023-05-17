@@ -1,8 +1,8 @@
 # set_variable = { which = province_id value = 3024  }
 
-owner = COA
-controller = COA
-add_core = COA
+#owner = COA
+#controller = COA
+#add_core = COA
 is_city = yes
 
 base_tax = 2

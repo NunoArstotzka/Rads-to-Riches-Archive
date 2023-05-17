@@ -1,7 +1,7 @@
 
-owner = RPC
-controller = RPC
-add_core = RPC
+#owner = RPC
+#controller = RPC
+#add_core = RPC
 is_city = yes
 
 base_tax = 1

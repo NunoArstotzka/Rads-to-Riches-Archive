@@ -1,7 +1,7 @@
 
-owner = DUF
-controller = DUF
-add_core = DUF
+#owner = DUF
+#controller = DUF
+#add_core = DUF
 is_city = yes
 
 base_tax = 1

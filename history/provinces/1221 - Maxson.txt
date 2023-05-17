@@ -1,9 +1,9 @@
 # set_variable = { which = province_id value = 2960  }
 
-owner = BOS
-controller = BOS
-add_core = BOS
-add_core = MXS
+#owner = BOS
+#controller = BOS
+#add_core = BOS
+#add_core = MXS
 
 is_city = yes
 base_tax = 3
@@ -18,5 +18,5 @@ hre = no # hre = yes
 center_of_trade = 1
 
 2282.1.1 = {
-    # add_core = NCR
+    # #add_core = NCR
 }

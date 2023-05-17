@@ -2,9 +2,9 @@
 
 #2969 - Zion Canyon
 
-owner = DED
-controller = DED
-add_core = DED
+#owner = DED
+#controller = DED
+#add_core = DED
 is_city = yes
 
 base_tax = 2

@@ -2,9 +2,9 @@
 
 #2967 - Nellis Air Force Base
 
-owner = BOO
-controller = BOO
-add_core = BOO
+#owner = BOO
+#controller = BOO
+#add_core = BOO
 
 is_city = yes
 base_tax = 1

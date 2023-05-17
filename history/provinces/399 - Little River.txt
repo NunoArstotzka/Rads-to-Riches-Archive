@@ -1,8 +1,8 @@
 # set_variable = { which = province_id value = 399  }
 
-owner = NAV
-controller = NAV
-add_core = NAV
+#owner = NAV
+#controller = NAV
+#add_core = NAV
 is_city = yes
 
 base_tax = 2

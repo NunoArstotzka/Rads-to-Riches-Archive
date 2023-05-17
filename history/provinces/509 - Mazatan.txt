@@ -1,7 +1,7 @@
 
-owner = BUC
-controller = BUC
-add_core = BUC
+#owner = BUC
+#controller = BUC
+#add_core = BUC
 is_city = yes
 
 base_tax = 1

@@ -1,7 +1,7 @@
 
-owner = LOZ
-controller = LOZ
-add_core = LOZ
+#owner = LOZ
+#controller = LOZ
+#add_core = LOZ
 is_city = yes
 
 base_tax = 1

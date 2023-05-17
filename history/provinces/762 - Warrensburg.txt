@@ -1,7 +1,7 @@
 
-owner = LSH
-controller = LSH
-add_core = LSH
+#owner = LSH
+#controller = LSH
+#add_core = LSH
 is_city = yes
 
 base_tax = 3

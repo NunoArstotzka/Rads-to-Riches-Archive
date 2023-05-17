@@ -1,9 +1,9 @@
 # set_variable = { which = province_id value = 335  }
 
-owner = CAE
-controller = CAE
-add_core = CAE
-add_core = RID
+#owner = CAE
+#controller = CAE
+#add_core = CAE
+#add_core = RID
 
 is_city = yes
 base_tax = 2

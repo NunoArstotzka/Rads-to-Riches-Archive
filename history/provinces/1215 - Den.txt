@@ -2,9 +2,9 @@
 
 #2969 - Zion Canyon
 
-owner = DEN
-controller = DEN
-add_core = DEN
+#owner = DEN
+#controller = DEN
+#add_core = DEN
 is_city = yes
 
 base_tax = 4

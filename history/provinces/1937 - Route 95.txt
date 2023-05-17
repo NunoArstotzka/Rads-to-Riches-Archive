@@ -1,7 +1,7 @@
 
-owner = CAE
-controller = CAE
-add_core = CAE
+#owner = CAE
+#controller = CAE
+#add_core = CAE
 
 is_city = yes
 base_tax = 1
