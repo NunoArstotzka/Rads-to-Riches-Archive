@@ -1,8 +1,8 @@
 # set_variable = { which = province_id value = 539  }
 
-add_core = DIC
-owner = DIC
-controller = DIC
+#add_core = DIC
+#owner = DIC
+#controller = DIC
 is_city = yes
 
 base_tax = 6

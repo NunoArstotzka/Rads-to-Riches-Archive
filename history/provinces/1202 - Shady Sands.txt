@@ -1,8 +1,8 @@
 # set_variable = { which = province_id value = 2956  }
 
-owner = SHA
-controller = SHA
-add_core = SHA
+#owner = SHA
+#controller = SHA
+#add_core = SHA
 is_city = yes
 
 base_tax = 8
@@ -37,7 +37,7 @@ fbs_fort_1 = yes
 }
 
 2282.1.1 = {
-    # owner = NCR
-    # controller = NCR
-    # add_core = NCR
+    # #owner = NCR
+    # #controller = NCR
+    # #add_core = NCR
 }

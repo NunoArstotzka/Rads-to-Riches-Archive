@@ -2,9 +2,9 @@
 
 #2954 - New Vegas
 
-owner = NVG
-controller = NVG
-add_core = NVG
+#owner = NVG
+#controller = NVG
+#add_core = NVG
 
 is_city = yes
 base_tax = 8

@@ -1,7 +1,7 @@
 
-owner = FGS
-controller = FGS
-add_core = FGS
+#owner = FGS
+#controller = FGS
+#add_core = FGS
 is_city = yes
 
 base_tax = 2

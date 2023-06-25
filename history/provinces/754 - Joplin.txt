@@ -1,7 +1,7 @@
 
-owner = EBC
-controller = EBC
-add_core = EBC
+#owner = EBC
+#controller = EBC
+#add_core = EBC
 is_city = yes
 
 base_tax = 2

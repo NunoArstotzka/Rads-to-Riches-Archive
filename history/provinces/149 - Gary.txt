@@ -1,7 +1,7 @@
 
-owner = SKE
-controller = SKE
-add_core = SKE
+#owner = SKE
+#controller = SKE
+#add_core = SKE
 is_city = yes
 
 base_tax = 2

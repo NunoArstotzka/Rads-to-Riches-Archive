@@ -1,8 +1,8 @@
 # set_variable = { which = province_id value = 2972  }
 
-owner = SKY
-controller = SKY
-add_core = SKY
+#owner = SKY
+#controller = SKY
+#add_core = SKY
 
 is_city = yes
 base_tax = 2

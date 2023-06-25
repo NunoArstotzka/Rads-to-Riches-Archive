@@ -1,8 +1,8 @@
 # set_variable = { which = province_id value = 153  }
 
-owner = TMF
-controller = TMF
-add_core = TMF
+#owner = TMF
+#controller = TMF
+#add_core = TMF
 is_city = yes
 
 base_tax = 2

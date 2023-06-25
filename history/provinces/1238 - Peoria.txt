@@ -2,9 +2,9 @@
 
 #2994 - Peoria
 
-owner = PEO
-controller = PEO
-add_core = PEO
+#owner = PEO
+#controller = PEO
+#add_core = PEO
 
 is_city = yes
 base_tax = 1

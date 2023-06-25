@@ -1,7 +1,7 @@
 
-owner = BSK
-controller = BSK
-add_core = BSK
+#owner = BSK
+#controller = BSK
+#add_core = BSK
 is_city = yes
 
 base_tax = 1

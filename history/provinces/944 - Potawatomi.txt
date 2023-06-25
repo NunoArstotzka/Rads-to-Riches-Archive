@@ -1,8 +1,8 @@
 # set_variable = { which = province_id value = 944  }
 
-owner = IRF
-controller = IRF
-add_core = IRF
+#owner = IRF
+#controller = IRF
+#add_core = IRF
 is_city = yes
 
 base_tax = 2

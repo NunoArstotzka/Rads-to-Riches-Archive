@@ -1,8 +1,8 @@
 # set_variable = { which = province_id value = 559  }
 
-owner = NEC
-controller = NEC
-add_core = NEC
+#owner = NEC
+#controller = NEC
+#add_core = NEC
 
 is_city = yes
 base_tax = 3

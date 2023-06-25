@@ -2,9 +2,9 @@
 
 #953 - Conoy
 
-owner = RIV
-controller = RIV
-add_core = RIV
+#owner = RIV
+#controller = RIV
+#add_core = RIV
 
 is_city = yes
 base_tax = 6

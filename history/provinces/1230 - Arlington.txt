@@ -2,9 +2,9 @@
 
 #2985 - Arlington
 
-owner = BEC
-controller = BEC
-add_core = BEC
+#owner = BEC
+#controller = BEC
+#add_core = BEC
 
 is_city = yes
 base_tax = 4

@@ -1,8 +1,8 @@
 # set_variable = { which = province_id value = 928  }
 
-owner = TAR
-controller = TAR
-add_core = TAR
+#owner = TAR
+#controller = TAR
+#add_core = TAR
 is_city = yes
 
 base_tax = 1

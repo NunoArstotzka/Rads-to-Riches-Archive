@@ -1,7 +1,7 @@
 
-owner = SCB
-controller = SCB
-add_core = SCB
+#owner = SCB
+#controller = SCB
+#add_core = SCB
 is_city = yes
 
 base_tax = 2

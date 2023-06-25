@@ -1,6 +1,6 @@
-owner = BBR
-controller = BBR
-add_core = BBR
+#owner = BBR
+#controller = BBR
+#add_core = BBR
 is_city = yes
 
 base_tax = 1

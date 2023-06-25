@@ -1,9 +1,9 @@
 # set_variable = { which = province_id value = 90  }
 
-owner = YAK
-controller = YAK
-add_core = YAK
-add_core = WHT
+#owner = YAK
+#controller = YAK
+#add_core = YAK
+#add_core = WHT
 is_city = yes
 
 base_tax = 1

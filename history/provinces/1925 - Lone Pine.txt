@@ -1,7 +1,7 @@
 
-owner = BIP
-controller = BIP
-add_core = BIP
+#owner = BIP
+#controller = BIP
+#add_core = BIP
 is_city = yes
 
 base_tax = 2

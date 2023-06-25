@@ -1,8 +1,8 @@
 # set_variable = { which = province_id value = 915  }
 
-owner = RCA
-controller = RCA
-add_core = RCA
+#owner = RCA
+#controller = RCA
+#add_core = RCA
 is_city = yes
 
 base_tax = 2

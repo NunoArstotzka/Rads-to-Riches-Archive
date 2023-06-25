@@ -1,7 +1,7 @@
 
-owner = SLB
-controller = SLB
-add_core = SLB
+#owner = SLB
+#controller = SLB
+#add_core = SLB
 is_city = yes
 
 base_tax = 1
@@ -20,7 +20,7 @@ trade_goods = unknown
 
 
 2282.1.1 = {
-    # owner = NCR
-    # controller = NCR
-    # add_core = NCR
+    # #owner = NCR
+    # #controller = NCR
+    # #add_core = NCR
 }

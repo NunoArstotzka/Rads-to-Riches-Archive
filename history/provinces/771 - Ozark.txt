@@ -1,7 +1,7 @@
 
-owner = GMF
-controller = GMF
-add_core = GMF
+#owner = GMF
+#controller = GMF
+#add_core = GMF
 is_city = yes
 
 base_tax = 4
