@@ -4,7 +4,7 @@
 # California
 #---------------------------------------
 sierra_madre_area = { 	
-    1302 1303 1304 1305 1306
+    1302 1303 1304 1305
 }
 
 shi_town_area = { 
@@ -64,7 +64,7 @@ dayglow_area = {
 }
 
 the_great_glow_area = { 
-    1208 1954 1956 1957 1949 1952 1953
+    1208 1956 1957 1949 1952 1953
 }
 
 mariposa_area = { 
@@ -537,7 +537,7 @@ grand_canyon_area = {
 }
 
 yuma_area = {
-    88 496 1380 1378 1442 1955
+    88 496 1378 1442 1955
 }
 
 gila_area = {
@@ -732,7 +732,7 @@ des_moines_area = {
 }
 
 iowa_city_area = {
-    454 902 
+    454 902 154
 }
 
 jamik_area = {
@@ -743,7 +743,7 @@ jamik_area = {
 # Kentucky
 #---------------------------------------
 mayfield_area = {
-    367 1144 366 
+    367 366 
 }
 
 bowling_green_area = {
@@ -762,7 +762,7 @@ frankfort_area = {
 # West Virginia
 #---------------------------------------
 monongahela_area= {
-    1176 372 375
+    1176 372 375 287 288
 }
 
 morgantown_area = {
@@ -860,14 +860,14 @@ minneapolis_area = {
 }
 
 warfad_area = {
-    1147 475 908 664
+    1147 475 908 664 910
 }
 
 #---------------------------------------
 # Wisconsin
 #---------------------------------------
 milwaukee_area = {
-    487 1396 914
+    487 1396 914 152 
 }
 
 madison_area = {
@@ -886,11 +886,11 @@ chicago_area = {
 }
 
 rockford_area = {
-    153 1394 152 1236
+    153 1394 1236
 }
 
 aurora_area = {
-    151 1235 154
+    151 1235
 }
 
 joleit_area = {
@@ -914,7 +914,7 @@ clank_area = {
 }
 
 centralia_area = {
-    764 765 769 768
+    764 765 769 768 1144
 }
 
 #---------------------------------------
@@ -1151,7 +1151,7 @@ apalachee_area = {
 # Georgia
 #---------------------------------------
 savannah_area = {
-    1167 1166 1165 929 1169 
+    1167 1166 1165 929 
 }
 
 macon_area = {
@@ -1170,18 +1170,18 @@ augusta_area = {
 # South Carolina
 #---------------------------------------
 columbia_area = {
-    573 1170 932
+    573 1170 932 1169 
 }
 
 florence_area = {
-    574 933 577 1171
+    574 933 577
 }
 
 #---------------------------------------
 # North Carolina
 #---------------------------------------
 charlotte_area = {
-    597 575 576 949 604
+    597 575 576
 }
 
 raleigh_area = {
@@ -1189,7 +1189,7 @@ raleigh_area = {
 }
 
 plymouth_area = {
-    1172 599 938 601
+    1172 599 938 601 1171
 }
 
 #---------------------------------------
@@ -1245,7 +1245,7 @@ aburduun_area = {
 # Baja California
 #---------------------------------------
 northern_baja_area = {
-    166 78 79 167 1192 1910
+    166 78 79 167 1192 1910 1306 1954
 }
 
 southern_baja_area = { 
@@ -1264,7 +1264,7 @@ richmond_area = {
 }
 
 lynchburg_area = {
-    606 607 609 605 610
+    606 607 609 605 610 604 949
 }
 
 frederickburg_area = {
@@ -1272,7 +1272,7 @@ frederickburg_area = {
 }
 
 oakland_area = {
-    287 161 288 1177 1115
+    161 1177 1115
 }
 
 big_stone_gap_area = {
@@ -1365,7 +1365,7 @@ towson_area = {
 }
 
 lenape_area = {
-    308 955 956 307
+    308 955 956 307 299
 }
 
 the_pitt_area = {  
@@ -1468,7 +1468,7 @@ salem_area = {
 }
 
 montpelier_area = {  
-	969 1187 1188 995
+	969 1187 995 992
 }
 
 rhode_island_area = {  
@@ -1476,15 +1476,15 @@ rhode_island_area = {
 }	
 
 new_haven_area = {
-    833 1274 967 1275
+    833 1274 967 1184
 }
 
 norwalk_area = {
-    845 1184 1114 986
+    845 1114 986
 }
 
 amherst_area = {  
-	1276 1270 1269
+	1270 1269 1275
 }
 
 maine_fm_area = {  
@@ -1492,11 +1492,11 @@ maine_fm_area = {
 }	
 
 pennacook_area = {
-    1186 993 991
+    1186 993 991 1188
 }
 
 nimpuc_area = {
-    992 990 966
+    990 966 1276
 }
 
 merrimack_area = {
@@ -1609,7 +1609,7 @@ thunder_bay_area = {
 }
 
 ojibwa_area = {
-    910 1007 1118
+    1007 1118
 }
 
 north_bay_area = {
@@ -1720,7 +1720,7 @@ el_medio_area = {
 }
 
 caborca_area = {  
-	21 499 500
+	21 499 500 1380
 }
 
 temo_area = {

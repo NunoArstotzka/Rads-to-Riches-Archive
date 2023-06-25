@@ -1,8 +1,8 @@
 # set_variable = { which = province_id value = 4044 }
 
-owner = FAM
-controller = FAM
-add_core = FAM
+#owner = FAM
+#controller = FAM
+#add_core = FAM
 
 is_city = yes
 

@@ -1,7 +1,7 @@
 
-owner = DOH
-controller = DOH
-add_core = DOH
+#owner = DOH
+#controller = DOH
+#add_core = DOH
 is_city = yes
 
 base_tax = 1

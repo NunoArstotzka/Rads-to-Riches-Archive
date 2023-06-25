@@ -1,7 +1,7 @@
 
-owner = GHR
-controller = GHR
-add_core = GHR
+#owner = GHR
+#controller = GHR
+#add_core = GHR
 is_city = yes
 
 base_tax = 1

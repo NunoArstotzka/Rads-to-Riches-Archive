@@ -74,5 +74,5 @@ tags={
 	"Trade"
 	"Utilities"
 }
-supported_version="1.34.*"
-remote_file_id="2068586727"
+supported_version="1.35.*"
+path="C:/Users/Alejandro/Documents/Paradox Interactive/Europa Universalis IV/mod/radstoriches"

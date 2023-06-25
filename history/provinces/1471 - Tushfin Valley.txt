@@ -1,7 +1,7 @@
 
-owner = BMM
-controller = BMM
-add_core = BMM
+#owner = BMM
+#controller = BMM
+#add_core = BMM
 is_city = yes
 
 base_tax = 2

@@ -2,9 +2,9 @@
 
 #2965 - Hidden Valley
 
-owner = MCT
-controller = MCT
-add_core = MCT
+#owner = MCT
+#controller = MCT
+#add_core = MCT
 
 is_city = yes
 base_manpower = 6

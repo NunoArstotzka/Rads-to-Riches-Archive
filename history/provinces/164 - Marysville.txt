@@ -1,7 +1,7 @@
 
-owner = IRO
-controller = IRO
-add_core = IRO
+#owner = IRO
+#controller = IRO
+#add_core = IRO
 is_city = yes
 
 base_tax = 1

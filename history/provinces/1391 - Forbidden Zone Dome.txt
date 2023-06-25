@@ -1,9 +1,9 @@
 # set_variable = { which = province_id value = 4016  }
 
 is_city = yes
-add_core = FBZ
-owner = FBZ
-controller = FBZ
+#add_core = FBZ
+#owner = FBZ
+#controller = FBZ
 
 base_tax = 3
 base_production = 4

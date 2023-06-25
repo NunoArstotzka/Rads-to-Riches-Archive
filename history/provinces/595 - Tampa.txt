@@ -1,8 +1,8 @@
 # set_variable = { which = province_id value = 595  }
 
-owner = SWF
-controller = SWF
-add_core = SWF
+#owner = SWF
+#controller = SWF
+#add_core = SWF
 is_city = yes
 
 base_tax = 1

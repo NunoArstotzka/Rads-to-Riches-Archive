@@ -1,8 +1,8 @@
 # set_variable = { which = province_id value = 2508  }
 
-owner = GMT
-controller = GMT
-add_core = GMT
+#owner = GMT
+#controller = GMT
+#add_core = GMT
 is_city = yes
 
 base_tax = 1

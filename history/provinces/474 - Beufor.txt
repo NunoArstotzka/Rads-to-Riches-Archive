@@ -1,7 +1,7 @@
 
-owner = IRB
-controller = IRB
-add_core = IRB
+#owner = IRB
+#controller = IRB
+#add_core = IRB
 is_city = yes
 
 base_tax = 1

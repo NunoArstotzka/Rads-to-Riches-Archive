@@ -2,9 +2,9 @@
 
 #2021 - San Francisco
 
-owner = SHI
-controller = SHI
-add_core = SHI
+#owner = SHI
+#controller = SHI
+#add_core = SHI
 
 is_city = yes
 base_tax = 6

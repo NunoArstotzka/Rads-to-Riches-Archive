@@ -1,7 +1,7 @@
 
-owner = MKI
-controller = MKI
-add_core = MKI
+#owner = MKI
+#controller = MKI
+#add_core = MKI
 is_city = yes
 
 base_tax = 1

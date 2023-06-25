@@ -1,8 +1,8 @@
 # set_variable = { which = province_id value = 68  }
 
-owner = MND
-controller = MND
-add_core = MND
+#owner = MND
+#controller = MND
+#add_core = MND
 is_city = yes
 
 base_tax = 2
@@ -17,9 +17,9 @@ center_of_trade = 1
 trade_goods = drugs
 
 2282.1.1 = {
-    add_core = FOA
-    owner = FOA
-    controller = FOA
+    #add_core = FOA
+    #owner = FOA
+    #controller = FOA
     culture = follower
     religion = secular
 }

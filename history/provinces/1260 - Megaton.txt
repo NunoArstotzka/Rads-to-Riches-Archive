@@ -2,9 +2,9 @@
 
 #3017 - Megaton
 
-owner = MEG
-controller = MEG
-add_core = MEG
+#owner = MEG
+#controller = MEG
+#add_core = MEG
 
 is_city = yes
 base_tax = 3

@@ -608,7 +608,6 @@ pennsylvania_region = {
         monroeville_area
         erie_stretch_area
         altoona_area
-        towson_area
         lenape_area
         the_pitt_area
         franklin_area
@@ -632,6 +631,7 @@ the_capital_wasteland_region = {
         paradise_falls_area
         lamplight_area
         potomac_area
+		towson_area
     }
 }
 

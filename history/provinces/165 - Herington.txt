@@ -1,7 +1,7 @@
 
-owner = TFL
-controller = TFL
-add_core = TFL
+#owner = TFL
+#controller = TFL
+#add_core = TFL
 is_city = yes
 
 base_tax = 1

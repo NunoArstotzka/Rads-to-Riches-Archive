@@ -1,8 +1,8 @@
 # set_variable = { which = province_id value = 4034  }
 
-owner = CRM
-controller = CRM
-add_core = CRM
+#owner = CRM
+#controller = CRM
+#add_core = CRM
 is_city = yes
 
 base_tax = 2

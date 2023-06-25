@@ -2,9 +2,9 @@
 
 #2968 - Mount Charleston
 
-owner = JAC
-controller = JAC
-add_core = JAC
+#owner = JAC
+#controller = JAC
+#add_core = JAC
 
 is_city = yes
 base_tax = 3

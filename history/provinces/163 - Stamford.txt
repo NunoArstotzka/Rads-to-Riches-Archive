@@ -1,8 +1,8 @@
 # set_variable = { which = province_id value = 163  }
 
-owner = NYC
-controller = NYC
-add_core = NYC
+#owner = NYC
+#controller = NYC
+#add_core = NYC
 is_city = yes
 
 base_tax = 4
